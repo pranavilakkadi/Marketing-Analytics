@@ -32,13 +32,12 @@ This project consolidates advertising data from **Facebook Ads**, **Google Ads**
 ## Getting Started
 1. Review the CSV data files for raw advertising metrics
 2. Use **Marketing_Analytics.sql** to create the database schema and run transformation queries
-3. Analyze results using the **Marketing_Analytics_Dashboard.pdf** for key insights
+3. Analyze results using the **Marketing_Analytics_Dashboard** for key insights
 4. Export or visualize additional metrics based on your analysis needs
 
 ## Technologies Used
 - SQL for data transformation and analysis
-- CSV for raw data storage
-- PDF for dashboard and reporting
+- Looker Sudio for dashboard and reporting
 
 ## Use Cases
 - Campaign performance monitoring
@@ -46,15 +45,6 @@ This project consolidates advertising data from **Facebook Ads**, **Google Ads**
 - Budget allocation optimization
 - Identifying top-performing campaigns and audiences
 - Strategic decision-making based on data-driven insights
-
-## Next Steps
-- Integrate automated data pulls from advertising APIs
-- Expand to additional advertising platforms
-- Implement real-time dashboard updates
-- Add predictive analytics for campaign optimization
-
-## License
-This project is open source and available for use.
 
 ## Contact
 For questions or contributions, please reach out via GitHub.
