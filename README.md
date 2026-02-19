@@ -1,44 +1,60 @@
 # Marketing Analytics
 
-## Project Overview
-Marketing Analytics is a data transformation project aimed at converting raw advertising data from various major platforms into actionable insights. This project leverages data processing and analysis techniques to help marketers make informed decisions based on real-time data.
+Transform raw advertising data from three major platforms into actionable insights through a unified data model and compelling visualizations.
 
-## Purpose
-The purpose of this project is to streamline the process of extracting, transforming, and analyzing advertising data from platforms such as Google Ads, Facebook Ads, and others. The goal is to provide users with clear and concise insights into their advertising performance, enabling better strategic decisions.
+## Overview
+This project consolidates advertising data from **Facebook Ads**, **Google Ads**, and **TikTok Ads** into a single analytics system. Using SQL transformations and data visualization, it provides comprehensive insights into campaign performance across all platforms.
 
-## Features
-- **Data Integration:** Seamlessly pull in data from multiple advertising platforms.
-- **Data Transformation:** Clean and transform raw data into a usable format.
-- **Analytics Dashboard:** Visualize key metrics and trends over time.
-- **Export Options:** Export results in various formats for reporting and presentation purposes.
+## Repository Contents
 
-## Setup Instructions
-1. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/pranavilakkadi/Marketing-Analytics.git
-   cd Marketing-Analytics
-   ```
-2. **Install Dependencies:**
-   Make sure you have Python and pip installed. Then run:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. **Configuration:**
-   Update your configuration file with the necessary API keys and settings.
+### Data Files
+- **01_facebook_ads.csv** - Facebook Ads campaign data
+- **02_google_ads.csv** - Google Ads campaign data  
+- **03_tiktok_ads.csv** - TikTok Ads campaign data
 
-## Usage
-1. **Running the Script:** Use the following command to run the main script:
-   ```bash
-   python main.py
-   ```
-2. **Analyzing Data:** Follow the prompts to select the data sources and specify the time frame for your analysis.
-3. **Viewing Results:** After the analysis completes, view the results on the analytics dashboard.
+### SQL & Analytics
+- **Marketing_Analytics.sql** - Database schema and transformation queries for unified data analysis
+- **Marketing_Analytics_Dashboard.pdf** - Executive dashboard with key performance metrics and visualizations
+
+## Key Features
+- **Multi-Platform Integration** - Consolidate data from Facebook, Google, and TikTok
+- **Data Transformation** - SQL queries to clean and normalize data from different sources
+- **Unified Data Model** - Single source of truth for cross-platform campaign analysis
+- **Analytics Dashboard** - Visual insights into campaign performance, ROI, and audience metrics
+
+## Data Analysis Capabilities
+- Campaign performance metrics (impressions, clicks, conversions)
+- Cost analysis (spend, CPA, ROAS)
+- Audience demographics and engagement
+- Cross-platform performance comparison
+- Trend analysis and insights
+
+## Getting Started
+1. Review the CSV data files for raw advertising metrics
+2. Use **Marketing_Analytics.sql** to create the database schema and run transformation queries
+3. Analyze results using the **Marketing_Analytics_Dashboard.pdf** for key insights
+4. Export or visualize additional metrics based on your analysis needs
+
+## Technologies Used
+- SQL for data transformation and analysis
+- CSV for raw data storage
+- PDF for dashboard and reporting
+
+## Use Cases
+- Campaign performance monitoring
+- ROI analysis across advertising platforms
+- Budget allocation optimization
+- Identifying top-performing campaigns and audiences
+- Strategic decision-making based on data-driven insights
+
+## Next Steps
+- Integrate automated data pulls from advertising APIs
+- Expand to additional advertising platforms
+- Implement real-time dashboard updates
+- Add predictive analytics for campaign optimization
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Author
-This project is maintained by pranavilakkadi.
+This project is open source and available for use.
 
 ## Contact
-For questions or feedback, please reach out through GitHub.
+For questions or contributions, please reach out via GitHub.
